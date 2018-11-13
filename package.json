@@ -1,11 +1,11 @@
 {
-  "name": "tiaraudn",
+  "name": "javascript-seo",
   "version": "0.1.0",
-  "description": "This is a random and useless domain name",
+  "description": "JavaScript & SEO",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tyrw/tiaraudn"
+    "url": "https://github.com/anymod/javascript-seo"
   },
   "main": "server.js",
   "scripts": {
