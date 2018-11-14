@@ -166,44 +166,84 @@
         </div>
         <div class="panel-block">
           <strong class="panel-icon has-text-primary">A</strong>
-          Static content - Rendered by server and already on the page at load
+          <span>
+            Static content
+            <br>
+            <small class="has-text-grey">Rendered by server and already on the page at load</small>
+          </span>
         </div>
-        <a class="panel-block">
+        <div class="panel-block">
           <strong class="panel-icon has-text-primary">B</strong>
-          JavaScript already on the page at load - Content hard-coded in the JS and added when it runs
-        </a>
-        <a class="panel-block">
+          <span>
+            JavaScript on page executes, which adds content to page
+            <br>
+            <small class="has-text-grey">JS already on the page at load (inside of &lt;script&gt; tag)</small>
+          </span>
+        </div>
+        <div class="panel-block">
           <strong class="panel-icon has-text-primary">C</strong>
-          JavaScript already on the page at load - Content from AJAX request to same domain
-        </a>
-        <a class="panel-block">
+          <span>
+            JavaScript on page makes AJAX request to same domain, then adds response content to page
+            <br>
+            <small class="has-text-grey">JS already on the page at load (inside of &lt;script&gt; tag)</small>
+          </span>
+        </div>
+        <div class="panel-block">
           <strong class="panel-icon has-text-primary">D</strong>
-          JavaScript already on the page at load - Content from AJAX request to external domain
-        </a>
-        <a class="panel-block">
+          <span>
+            JavaScript on page makes AJAX request to different domain, then adds response content to page
+            <br>
+            <small class="has-text-grey">JS already on the page at load (inside of &lt;script&gt; tag)</small>
+          </span>
+        </div>
+        <div class="panel-block">
           <strong class="panel-icon has-text-primary">E</strong>
-          JavaScript from an external file hosted at the same domain - Content hard-coded in the JS file
-        </a>
-        <a class="panel-block">
+          <span>
+            JavaScript file executes, which adds content to page
+            <br>
+            <small class="has-text-grey">JS from a file hosted at the same domain</small>
+          </span>
+        </div>
+        <div class="panel-block">
           <strong class="panel-icon has-text-primary">F</strong>
-          JavaScript from an external file hosted at the same domain - Content from AJAX request to same domain
-        </a>
-        <a class="panel-block">
+          <span>
+            JavaScript file makes AJAX request to same domain, then adds response content to page
+            <br>
+            <small class="has-text-grey">JS from a file hosted at the same domain</small>
+          </span>
+        </div>
+        <div class="panel-block">
           <strong class="panel-icon has-text-primary">G</strong>
-          JavaScript from an external file hosted at the same domain - Content from AJAX request to external domain
-        </a>
-        <a class="panel-block">
+          <span>
+            JavaScript file makes AJAX request to different domain, then adds response content to page
+            <br>
+            <small class="has-text-grey">JS from a file hosted at the same domain</small>
+          </span>
+        </div>
+        <div class="panel-block">
           <strong class="panel-icon has-text-primary">H</strong>
-          JavaScript from an external file hosted at a different domain - Content hard-coded in the JS file
-        </a>
-        <a class="panel-block">
+          <span>
+            JavaScript file executes, which adds content to page
+            <br>
+            <small class="has-text-grey">JS from a file hosted at a different domain</small>
+          </span>
+        </div>
+        <div class="panel-block">
           <strong class="panel-icon has-text-primary">I</strong>
-          JavaScript from an external file hosted at a different domain - Content from AJAX request to same domain
-        </a>
-        <a class="panel-block">
+          <span>
+            JavaScript file makes AJAX request to same domain, then adds response content to page
+            <br>
+            <small class="has-text-grey">JS from a file hosted at a different domain</small>
+          </span>
+        </div>
+        <div class="panel-block">
           <strong class="panel-icon has-text-primary">J</strong>
-          JavaScript from an external file hosted at a different domain - Content from AJAX request to external domain
-        </a>
+          <span>
+            JavaScript file makes AJAX request to different domain, then adds response content to page
+            <br>
+            <small class="has-text-grey">JS from a file hosted at a different domain</small>
+          </span>
+        </div>
       </div>
     </section>
 
